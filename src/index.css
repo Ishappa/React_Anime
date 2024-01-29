@@ -1,0 +1,154 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  width: 100%;
+  /* background-color: #4e4e50; */
+}
+nav
+{
+width: 100%;
+margin: 0px auto;
+padding: 20px;
+border-bottom: solid black 2px;
+display: flex;
+align-items: center;
+background-color: #4e4e50;
+/* background-color: #1A1A1D; */
+
+}
+.part1
+{
+  margin-right: 40%;
+  margin-left: 70px;
+}
+nav a,input
+{
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 40px;
+  color: white;
+  font-weight: 800;
+}
+nav input
+{
+  border: solid black 2px;
+  width: 250px;
+}
+
+.anime-list
+{
+  /* background-color: #950740; */
+  background-color: #1A1A1D;
+  border-top: solid 2px black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 300px 300px 300px 300px;
+  width: 100%;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+.anime-list a
+{
+  text-decoration: none;
+  color: #1A1A1D;
+}
+.anime-list1
+{
+  /* background-color: #950740; */
+  background-color: #1A1A1D;
+  margin: 5px;
+  width: 290px;
+  height: 500px;
+  padding: 10px;
+  
+}
+
+.anime-list1 img
+{
+  width: 100%;
+  height: 400px;
+}
+
+.anime-list1 h3
+{
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.Anime-details1
+{
+
+  width: 90%;
+  margin: 0px auto;
+}
+
+.Anime-image img
+{
+  padding: 10px;
+  margin: 5px;
+  width: 400px;
+  height: 400px;
+}
+.Anime-details2
+{
+  background-color: #706569;
+  width: 600px;
+  margin: 10px auto;
+}
+.headings
+{
+  
+ 
+  width: 400px;
+  margin: 0px auto;
+  display: grid;
+
+  
+}
+
+
+
+section div label{
+  font-weight: bold;
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-start;
+ 
+}
+.errormsg
+{
+  border: #1A1A1D solid 4px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  
+}
+.loader{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-left: 6px black dashed;
+  border-top: 6px black dashed;
+  margin: 20px auto;
+  animation-name: loading ;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes loading {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
